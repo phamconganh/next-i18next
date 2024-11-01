@@ -10,3 +10,8 @@ export {
   appWithTranslation,
   globalI18n as i18n,
 } from './appWithTranslation'
+
+export {
+  AppWithTranslationAppDirProvider,
+  globalI18n as i18nAppDir,
+} from './AppWithTranslationAppDirProvider'

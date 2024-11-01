@@ -78,7 +78,7 @@
     "postversion": "git push && git push --tags && npm run release",
     "release": "gh-release",
     "nuke:install": "rimraf '**/node_modules' '**/package-lock.json'",
-    "prepare": "husky install"
+    "prepare": "husky install && npm run build" 
   },
   "devDependencies": {
     "@babel/cli": "7.23.0",
